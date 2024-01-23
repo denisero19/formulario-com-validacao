@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/bg-repeat.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+}  
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.mensagem {
+    color: #FFF;
+    padding-right: 200px;
+    font-size: 30px;
+}
+
+.mensagem .titulo{
+   width: 470px;
+   height: 90px;
+   font-size: 30px;
+    
+}
+.mensagem .texto{
+    width: 470px;
+    height: 80px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.container{
+    background: #FFF;
+    width: 520px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario{
+    color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.item{
+   position: relative; top: 7%; 
+}
+
+ .input{
+    width: 470px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFFFFF;
+    font-weight: 700;
+    color:#000000;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 15px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+textarea{
+    font-family: 'Roboto';
+    font-weight: 700;
+    width: 298px;
+    height: 100px;
+    padding: 20px;
+}
+
+.mensagem-alerta{
+    color: #000000;
+    font-size: 25px;
+    margin: 15px;
+    display: flex;
+    margin-top: 55px;
+}
+
+button{
+    color:#FFF;
+    background-color: #3CCC87;
+    font-size: 20px;
+    width: 470px;
+    height: 65px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin: 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+ }
+
+button:hover{
+    background-color: hsl(151, 84%, 50%);
+ } 
+
+  /* ===VALIDAÇÃO NO JS=== */
+
+.campo-obrigatorio{
+    color: #F52E2E;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold
+}
+
+.campo-requerido{
+    border: 1px solid #F52E2E;
+}
+
+.campo-preenchido{
+    border: 1px solid #00C22B;
+}
+
+.ocultar{
+    display: none;
+}
+
