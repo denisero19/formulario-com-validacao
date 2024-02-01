@@ -1,0 +1,74 @@
+@media (max-width: --max-width-size){
+        body{
+            max-width: var(--desktop-width);
+            min-width: var(--mobile-width);
+            gap: 0;
+        }
+    }
+
+    @media (max-width: 425px){
+        .mensagem{
+            display: grid;
+            position: absolute;
+            justify-content: center;
+            height: 90vh;
+            width: 100px;
+            flex-wrap: wrap;
+        }
+    
+        .mensagem .titulo{
+            font-size: 20px;
+            padding-top: 20px;
+            text-align: center;
+        }
+    
+        .mensagem .texto{
+           font-size: 15px;
+           padding-bottom: 760px;
+           text-align: center;
+        }
+    }
+     
+    @media (max-width: 425px){
+        .container{
+           width: 300px;
+           height: 55vh;
+       }
+    }
+
+    @media (max-width: 425px){
+        .formulario{
+            width: 30vh;
+            height: 100vh;
+        }
+    }
+    
+    @media (max-width: 425px){
+        .input{
+            width: 260px;
+            height: 30px;
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width: 425px){
+        .input-mensagem{
+            width: 260px;
+            height: 100px;
+            resize: none;
+            font-size: 15px;
+        }
+    
+        .mensagem-alerta{
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+    
+        button{
+            width: 260px;
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }

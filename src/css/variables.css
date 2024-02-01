@@ -1,5 +1,5 @@
 :root{
-    --max-width-size:1920px;
-    --mobile-width: 375px;
+    --max-width-size:1440px;
+    --mobile-width: 320px
     --desktop-width: 1440px;
-}  
+}    
