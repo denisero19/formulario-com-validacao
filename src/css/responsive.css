@@ -6,69 +6,84 @@
         }
     }
 
-    @media (max-width: 425px){
+    @media (max-width: 450px){
         .mensagem{
-            display: grid;
-            position: absolute;
+            display: flexbox;
             justify-content: center;
+            text-align: center;
             height: 90vh;
             width: 100px;
-            flex-wrap: wrap;
+            margin-left: 170px;
+            margin-top: 35px;
+            
         }
     
         .mensagem .titulo{
             font-size: 20px;
             padding-top: 20px;
             text-align: center;
+            justify-content: center;
         }
     
         .mensagem .texto{
            font-size: 15px;
            padding-bottom: 760px;
            text-align: center;
+           justify-content: center;
         }
     }
      
-    @media (max-width: 425px){
+    @media (max-width: 450px){
         .container{
+           display: flexbox;
            width: 300px;
-           height: 55vh;
+           height: 50vh;
+           justify-content: center; 
+           margin-right: 290px;
        }
     }
 
-    @media (max-width: 425px){
+    @media (max-width: 450px){
         .formulario{
             width: 30vh;
-            height: 100vh;
+            height: 90vh;
+            margin-right: 5px;
         }
+    
     }
     
     @media (max-width: 425px){
-        .input{
+        input{
             width: 260px;
-            height: 30px;
+            height: 25px;
             font-size: 15px;
+            resize: none;
+            border: 1px solid #000;
+        }
+
+        textarea{
+            width: 260px;
+            height: 65px;
+            font-size: 15px;
+            resize: none;
+            border: 1px solid #000;
         }
     }
 
     @media (max-width: 425px){
-        .input-mensagem{
-            width: 260px;
-            height: 100px;
-            resize: none;
-            font-size: 15px;
-        }
-    
+          
         .mensagem-alerta{
+            height: 50px;
             font-size: 15px;
-            margin-bottom: 30px;
+            margin-bottom: 130px;
         }
     
         button{
             width: 260px;
             height: 50px;
-            position: relative;
             text-align: center;
-            margin: 0 auto;
+            justify-content: center;
+            margin-left: 5px;
+            margin-top: -120px;
         }
     }

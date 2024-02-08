@@ -2,36 +2,42 @@
 
 html{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url(../images/bg-repeat.jpg);
-    height: 100%;
-    background-size: 100% 100%;
+    background-image: url('../images/bg-repeat.jpg');
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }  
 
 main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
 }
 
 .mensagem {
     color: #FFF;
-    margin-bottom: 45px;
+    margin-bottom: 65px;
+    width: 500px;
+    height: 170px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
 }
 
 .mensagem .titulo{
-   width: 470px;
+   width: 500px;
    height: 90px;
    font-size: 27px;
 }
 .mensagem .texto{
-    width: 470px;
+    width: 500px;
     height: 65px;
     font-size: 20px;
 }
@@ -39,71 +45,61 @@ main{
 .container{
     background: #FFF;
     width: 520px;
-    height: 570px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 600px;
     text-align: center;
+    display: flex;
 }
 
 .formulario{
     color: #FFFFFF;
     width: 100%;
-    display: flex;
     flex-direction: column;
-    box-sizing: border-box;
+    display: flex;
+    /* height: 400px; */
+    
 }
 
-.item{
-   position: relative; top: 7%; 
-}
-
- .input{
+ input{
     width: 470px;
     height: 45px;
     border-radius: 5px;
     border: 1px solid #000;
     background: #FFFFFF;
-    font-weight: 700;
     color:#000000;
-    font-size: 18px;
     padding: 15px;
     margin-top: 15px;
-    opacity: 0.5;
-    transition: 0.3s;
+}
+
+input::placeholder{
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 textarea {
-    font-family: 'Roboto';
-    font-weight: 700;
-    width: 298px;
-    height: 100px;
-    padding: 10px;
-    resize: none;
-}
-
-.input-mensagem{
     width: 470px;
-    height: 150px;
+    height: 125px;
+    font-family: 'Roboto';
+    resize: none;
     border-radius: 5px;
     border: 1px solid #000;
-    background: #FFFFFF;
-    font-weight: 700;
-    color:#000000;
-    font-size: 18px;
-    padding: 15px;
     margin-top: 15px;
-    opacity: 0.5;
-    transition: 0.3s;
-}
+    padding: 15px;
+}   
+
+textarea::placeholder {
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: bold;
+  }
 
 .mensagem-alerta{
     color: #000000;
     font-size: 18px;
     margin: 15px;
     display: flex;
-    margin-top: 55px;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 
 button{
@@ -116,7 +112,7 @@ button{
     border: none;
     border-radius: 5px;
     margin: 25px;
-    margin-bottom: 50px;
+    margin-top: 35px;
     cursor: pointer;
  }
 
@@ -126,13 +122,13 @@ button:hover{
 
   /* ===VALIDAÇÃO NO JS=== */
 
-.campo-obrigatorio{
+ .campo-obrigatorio{
     color: #F52E2E;
     font-size: 10px;
     text-align: left;
     margin-left: 30px;
-    font-weight: bold
-}
+    font-weight: bold;
+ }
 
 .campo-requerido{
     border: 1px solid #F52E2E;
@@ -146,4 +142,4 @@ button:hover{
     display: none;
 }
 
-
+ 
