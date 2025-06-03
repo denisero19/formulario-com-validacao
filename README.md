@@ -3,7 +3,7 @@ Um projeto de um formulário com validação onde foi utilizado o HTML, CSS e Ja
 
 <img src="./src/images/Desktop formulário.gif" alt="Imagem da tela do desktop"> 
 
-<img src="./src/images/Mobile formulário.gif" alt="Imagem da tela do mobile">
+<img src="./src/images/mobile.gif" alt="Imagem da tela do mobile">
 
 
 ## Tecnologias utilizadas
