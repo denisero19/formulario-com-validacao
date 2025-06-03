@@ -1,5 +1,6 @@
 :root{
     --max-width-size:1024px;
     --mobile-width: 320px
+    --tablet-width: 768px;
     --desktop-width: 1024px;
 }    

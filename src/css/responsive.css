@@ -6,7 +6,7 @@
         }
     }
 
-    @media (max-width: 450px){
+    @media (max-width: 768px){
         .mensagem{
             display: flexbox;
             justify-content: center;
@@ -19,40 +19,39 @@
         }
     
         .mensagem .titulo{
-            font-size: 20px;
-            padding-top: 20px;
+            font-size: 30px;
+            padding-top: 50px;
             text-align: center;
             justify-content: center;
         }
     
         .mensagem .texto{
-           font-size: 15px;
-           padding-bottom: 760px;
+           font-size: 25px;
+           padding-top: 50px;
            text-align: center;
            justify-content: center;
         }
     }
      
-    @media (max-width: 450px){
+    @media (max-width: 768px){
         .container{
            display: flexbox;
            width: 300px;
-           height: 50vh;
+           height: 45vh;
            justify-content: center; 
-           margin-right: 290px;
+           align-items: center;
+           margin-right: 250px;
        }
     }
 
-    @media (max-width: 450px){
+    @media (max-width: 768px){
         .formulario{
             width: 30vh;
-            height: 90vh;
-            margin-right: 5px;
+            height: 40vh;
         }
-    
     }
-    
-    @media (max-width: 425px){
+
+    @media (max-width: 768px){
         input{
             width: 260px;
             height: 25px;
@@ -70,12 +69,13 @@
         }
     }
 
-    @media (max-width: 425px){
+    @media (max-width: 768px){
           
         .mensagem-alerta{
             height: 50px;
             font-size: 15px;
             margin-bottom: 130px;
+            margin-left: 25px;
         }
     
         button{
@@ -83,7 +83,7 @@
             height: 50px;
             text-align: center;
             justify-content: center;
-            margin-left: 5px;
+            margin-left: 15px;
             margin-top: -120px;
         }
     }
